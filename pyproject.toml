@@ -1,0 +1,22 @@
+[project]
+name = "qa-api-and-data-quality"
+version = "1.0.0"
+description = "API test automation with pytest and SQL data quality checks on real job postings data"
+requires-python = ">=3.10"
+dependencies = [
+    "pytest>=8.0",
+    "requests>=2.31",
+    "pandas>=2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["data_quality"]
+addopts = "-v -ra"
+markers = [
+    "positive: requests that should succeed",
+    "negative: invalid input that should be rejected",
+    "edge: boundary values and unusual input",
+    "known_bug: documents behaviour that does not match the expected result",
+    "data: checks on the job postings dataset",
+]

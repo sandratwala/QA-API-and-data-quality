@@ -1,0 +1,124 @@
+row_id,duplicate_of_row_id,job_title,company_name_clean,location,first_salary_estimate,salary_estimate,first_rating,rating,salary_conflict,rating_conflict
+5145,39,Data Science Analyst/Engineer,NYU Langone Health,"New York, NY",$46K-$87K (Glassdoor est.),$73K-$127K (Glassdoor est.),4.0,4.1,1,1
+5095,42,Behavioral Data Analyst,AB InBev,"New York, NY",$46K-$87K (Glassdoor est.),$47K-$82K (Glassdoor est.),-1.0,4.0,1,1
+5099,54,Senior Data Analyst,Gemini,"New York, NY",$46K-$87K (Glassdoor est.),$47K-$82K (Glassdoor est.),3.6,3.7,1,1
+5080,66,"Data Analyst, Retail Media",Criteo,"New York, NY",$51K-$88K (Glassdoor est.),$85K-$146K (Glassdoor est.),3.9,3.8,1,1
+5092,68,Portfolio Data Analyst,Neuberger Berman,"New York, NY",$51K-$88K (Glassdoor est.),$46K-$87K (Glassdoor est.),3.7,3.5,1,1
+5074,78,Data Analyst,Randstad,"Jersey City, NJ",$51K-$88K (Glassdoor est.),$46K-$65K (Glassdoor est.),3.7,3.6,1,1
+5097,90,Data Analyst,FINRA,"New York, NY",$51K-$88K (Glassdoor est.),$47K-$82K (Glassdoor est.),3.4,3.5,1,1
+5101,99,Data Analyst,Medly Pharmacy,"Brooklyn, NY",$51K-$87K (Glassdoor est.),$47K-$82K (Glassdoor est.),4.7,4.8,1,1
+5108,105,Data Analyst,Fund for Public Health,"Long Island City, NY",$51K-$87K (Glassdoor est.),$44K-$77K (Glassdoor est.),3.0,2.9,1,1
+5104,106,Data & Service Health Analyst,BlueVoyant,"New York, NY",$51K-$87K (Glassdoor est.),$44K-$77K (Glassdoor est.),4.2,3.9,1,1
+5110,122,Data Analyst,New York Life Insurance Co,"New York, NY",$59K-$85K (Glassdoor est.),$44K-$77K (Glassdoor est.),3.5,3.6,1,1
+5096,124,Data Analyst,Phyton Talent Advisors,"Jersey City, NJ",$59K-$85K (Glassdoor est.),$47K-$82K (Glassdoor est.),4.1,3.9,1,1
+5114,137,Senior Data Analyst,Rockstar Games,"New York, NY",$59K-$85K (Glassdoor est.),$41K-$72K (Glassdoor est.),4.1,4.0,1,1
+5093,143,Data Analyst,Precision technologies corp,"New York, NY",$59K-$85K (Glassdoor est.),$47K-$82K (Glassdoor est.),4.2,4.3,1,1
+5068,151,Data Analyst,NYU Langone Health,"New York, NY",$43K-$76K (Glassdoor est.),$46K-$65K (Glassdoor est.),4.0,4.1,1,1
+5117,199,Sr Business /Data Analyst- Reference data,Xoriant Corporation,"Jersey City, NJ",$60K-$110K (Glassdoor est.),$41K-$72K (Glassdoor est.),3.7,3.6,1,1
+5126,216,Data Analyst,Acacia Network,"Bronx, NY",$41K-$78K (Glassdoor est.),$41K-$78K (Glassdoor est.),3.3,3.4,0,1
+5129,225,Data Governance Analyst,Eclaro,"New York, NY",$41K-$78K (Glassdoor est.),$41K-$78K (Glassdoor est.),3.4,3.5,0,1
+5128,226,Client Service Data Analyst,Phyton Talent Advisors,"New York, NY",$41K-$78K (Glassdoor est.),$41K-$78K (Glassdoor est.),4.1,3.9,0,1
+5161,306,Principal Business Analyst - Data Governance,Rockstar Games,"New York, NY",$27K-$52K (Glassdoor est.),$91K-$117K (Glassdoor est.),4.1,4.0,1,1
+5127,335,"Sr Business Analyst, Data Science",Jackson Hewitt,"Jersey City, NJ",$42K-$74K (Glassdoor est.),$41K-$78K (Glassdoor est.),3.6,3.7,1,1
+5190,341,"Sr. Data Analyst, Retail Media",Criteo,"New York, NY",$77K-$132K (Glassdoor est.),$100K-$108K (Glassdoor est.),3.9,3.8,1,1
+5186,366,Senior Data Analyst - FHC - Family Support Center,NYU Langone Health,"New York, NY",$77K-$132K (Glassdoor est.),$54K-$96K (Glassdoor est.),4.0,4.1,1,1
+5189,393,NY Healthcare Data/Reporting Analyst,Abacus Service Corporation,"New York, NY",$98K-$114K (Glassdoor est.),$54K-$96K (Glassdoor est.),4.2,4.3,1,1
+5188,412,Product & Pricing Data Analyst,HomeBridge Financial Services,"Iselin, NJ",$48K-$96K (Glassdoor est.),$54K-$96K (Glassdoor est.),3.1,3.2,1,1
+4322,514,Product Data Analyst,Stamps.com,"El Segundo, CA",$55K-$103K (Glassdoor est.),$52K-$95K (Glassdoor est.),3.1,3.2,1,1
+4320,515,Lead Data Analyst,Headspace,"Santa Monica, CA",$55K-$103K (Glassdoor est.),$52K-$95K (Glassdoor est.),3.6,3.4,1,1
+4327,520,Product Data & Insights Analyst,Ruggable,"Gardena, CA",$55K-$103K (Glassdoor est.),$52K-$95K (Glassdoor est.),3.3,3.4,1,1
+4330,524,Data Analyst,Signal Sciences,"Los Angeles, CA",$55K-$103K (Glassdoor est.),$52K-$95K (Glassdoor est.),4.3,4.1,1,1
+4349,541,Data Analyst,Lucky Day,"Los Angeles, CA",$55K-$103K (Glassdoor est.),$73K-$134K (Glassdoor est.),4.0,3.9,1,1
+4375,566,Senior Data Analyst,Lucky Day,"Los Angeles, CA",$37K-$70K (Glassdoor est.),$35K-$45K (Glassdoor est.),4.0,3.9,1,1
+4343,568,Data Analyst,Arize Corporation,"Anaheim, CA",$37K-$70K (Glassdoor est.),$65-$75Per Hour(Employer est.),2.9,3.0,1,1
+4324,587,Public Policy Data Analyst,"Netflix, Inc.","Los Angeles, CA",$57K-$103K (Glassdoor est.),$52K-$95K (Glassdoor est.),3.9,4.0,1,1
+4331,598,Associate Player Support Data Analyst,Activision Blizzard,"El Segundo, CA",$57K-$103K (Glassdoor est.),$52K-$95K (Glassdoor est.),3.4,3.6,1,1
+4385,612,Data Analyst - Personalization,"Internet Brands, Inc.","Los Angeles, CA",$35K-$45K (Glassdoor est.),$86K-$95K (Glassdoor est.),3.4,3.5,1,1
+4332,671,Junior Data Analyst,Airgas,"Long Beach, CA",$65K-$81K (Glassdoor est.),$52K-$95K (Glassdoor est.),3.8,3.7,1,1
+4421,677,Student Data Compliance Analyst,KIPP SoCal Public Schools,"Los Angeles, CA",$65K-$81K (Glassdoor est.),$101K-$112K (Glassdoor est.),3.3,3.2,1,1
+4735,688,System and Data Analyst,Pacific Clinics,"Arcadia, CA",$113K-$132K (Glassdoor est.),$65K-$81K (Glassdoor est.),2.9,3.0,1,1
+2257,733,Product Data Analyst,Mondo,"Chicago, IL",$60K-$66K (Glassdoor est.),$60K-$66K (Glassdoor est.),3.9,3.8,0,1
+2262,737,Associate Marketing Data Analyst,Bosch Group,"Broadview, IL",$60K-$66K (Glassdoor est.),$60K-$66K (Glassdoor est.),4.1,4.0,0,1
+2260,741,Data Analyst,Peterson Technology Partners,"Chicago, IL",$60K-$66K (Glassdoor est.),$60K-$66K (Glassdoor est.),4.3,4.1,0,1
+2271,751,Data Analyst,UST Global,"Chicago, IL",$73K-$82K (Glassdoor est.),$36K-$69K (Glassdoor est.),4.2,4.1,1,1
+2261,755,Data Analyst,Ann & Robert H. Lurie Children's Hospital of Chicago,"Chicago, IL",$73K-$82K (Glassdoor est.),$60K-$66K (Glassdoor est.),3.7,3.8,1,1
+2273,762,Data Analyst,Randstad,"Downers Grove, IL",$73K-$82K (Glassdoor est.),$73K-$82K (Glassdoor est.),3.7,3.6,0,1
+2275,799,Sr. Data Analyst,Mondo,"Chicago, IL",$67K-$92K (Glassdoor est.),$73K-$82K (Glassdoor est.),3.9,3.8,1,1
+2279,818,Logistics Data Analyst,"TreeHouse Foods, Inc.","Oak Brook, IL",$42K-$76K (Glassdoor est.),$41K-$75K (Glassdoor est.),2.5,2.6,1,1
+2289,844,Philanthropy Operations Associate - Data Analyst,Trinity Health,"Maywood, IL",$97K-$129K (Glassdoor est.),$44K-$78K (Glassdoor est.),3.3,3.2,1,1
+2282,853,"Sr. Data Analyst - Analytics, Marketing, CPG",Jobot,"Chicago, IL",$97K-$129K (Glassdoor est.),$41K-$75K (Glassdoor est.),5.0,4.9,1,1
+2291,891,Cost Data Analyst,Mondo,"Houston, TX",$29K-$38K (Glassdoor est.),$29K-$38K (Glassdoor est.),3.9,3.8,0,1
+2290,893,"Data Analyst, Reporting",Harris County,"Houston, TX",$29K-$38K (Glassdoor est.),$29K-$38K (Glassdoor est.),3.4,3.2,0,1
+2296,905,XYZ Data Analyst,Rosen,"Houston, TX",$29K-$38K (Glassdoor est.),$29K-$38K (Glassdoor est.),3.7,3.6,0,1
+2298,907,Performance Data Analyst,Randstad US,"Houston, TX",$29K-$38K (Glassdoor est.),$37K-$70K (Glassdoor est.),3.7,3.6,1,1
+2299,910,Business Analyst (Data Integration/Salesforce),Mondo,"Houston, TX",$29K-$38K (Glassdoor est.),$37K-$70K (Glassdoor est.),3.9,3.8,1,1
+2308,934,Data Collector/Analyst (Entry Level),Army Houston Recruiting Battalion,"Houston, TX",$47K-$76K (Glassdoor est.),$54K-$92K (Glassdoor est.),3.6,-1.0,1,1
+2300,936,Data Warehouse Analyst,Yochana,"Houston, TX",$47K-$76K (Glassdoor est.),$37K-$70K (Glassdoor est.),2.9,3.2,1,1
+2303,942,Lead Quality Data Analyst,Harris Health System,"Houston, TX",$74K-$123K (Glassdoor est.),$37K-$70K (Glassdoor est.),3.4,3.2,1,1
+2306,961,"Financial Data Analyst - Data Mining, Analytics, Reporting",Jobot,"Sugar Land, TX",$74K-$123K (Glassdoor est.),$37K-$70K (Glassdoor est.),5.0,4.9,1,1
+2315,1003,Data Reporting Analyst,Mondo,"Phoenix, AZ",$46K-$102K (Glassdoor est.),$39K-$71K (Glassdoor est.),3.9,3.8,1,1
+2322,1019,SQL Data Analyst,Edupoint,"Mesa, AZ",$46K-$102K (Glassdoor est.),$39K-$71K (Glassdoor est.),3.3,3.2,1,1
+2334,1074,Data Analyst,Mondo,"Wilmington, DE",$41K-$78K (Glassdoor est.),$38K-$68K (Glassdoor est.),3.9,3.8,1,1
+2337,1076,SQL Data Analyst,Mondo,"Malvern, PA",$41K-$78K (Glassdoor est.),$38K-$68K (Glassdoor est.),3.9,3.8,1,1
+2335,1077,Data Analyst,Seer Interactive,"Philadelphia, PA",$41K-$78K (Glassdoor est.),$38K-$68K (Glassdoor est.),3.8,3.9,1,1
+2338,1086,Data Analyst - Data Science,Gopuff,"Philadelphia, PA",$41K-$78K (Glassdoor est.),$38K-$68K (Glassdoor est.),3.3,3.4,1,1
+2340,1088,Data Reporting Analyst,Mondo,"Feasterville Trevose, PA",$41K-$78K (Glassdoor est.),$38K-$68K (Glassdoor est.),3.9,3.8,1,1
+2347,1111,Data Strategy Analyst,Mondo,"Wilmington, DE",$38K-$68K (Glassdoor est.),$40K-$70K (Glassdoor est.),3.9,3.8,1,1
+2349,1115,Sr Data Analyst,Mondo,"Philadelphia, PA",$38K-$68K (Glassdoor est.),$40K-$70K (Glassdoor est.),3.9,3.8,1,1
+2353,1116,Data Analyst - Contractor,ConnectiveRx,"King of Prussia, PA",$38K-$68K (Glassdoor est.),$40K-$70K (Glassdoor est.),3.1,3.2,1,1
+2350,1141,Business Data Analyst,Freedom Mortgage,"Mount Laurel, NJ",$37K-$44K (Glassdoor est.),$40K-$70K (Glassdoor est.),4.2,4.3,1,1
+2361,1143,Lead Geophysical Data Analyst,Weston Solutions Inc.,"West Chester, PA",$37K-$44K (Glassdoor est.),$57K-$74K (Glassdoor est.),3.5,3.6,1,1
+2362,1161,Data & Systems Analyst,Freedom Mortgage,"Mount Laurel, NJ",$64K-$113K (Glassdoor est.),$57K-$74K (Glassdoor est.),4.2,4.3,1,1
+5522,1173,Data Governance Analyst,Freedom Mortgage,"Marlton, NJ",$64K-$113K (Glassdoor est.),$58K-$103K (Glassdoor est.),4.2,4.3,1,1
+2364,1185,"Systems Analyst, Quality Data System",Adaptimmune Ltd,"Philadelphia, PA",$50K-$93K (Glassdoor est.),$53K-$70K (Glassdoor est.),3.3,3.4,1,1
+2368,1192,Sr Business Analyst (Data Quality),Freedom Mortgage,"Marlton, NJ",$50K-$93K (Glassdoor est.),$53K-$70K (Glassdoor est.),4.2,4.3,1,1
+2380,1218,Data Business Solutions Analyst,Randstad,"San Antonio, TX",$37K-$68K (Glassdoor est.),$28K-$52K (Glassdoor est.),3.7,3.6,1,1
+2387,1244,Senior Risk Analyst-Data,Peyton Resource Group,"San Antonio, TX",$73K-$89K (Glassdoor est.),$48K-$87K (Glassdoor est.),3.9,4.0,1,1
+2388,1251,Data Analyst,Midland Credit Management,"San Diego, CA",$76K-$122K (Glassdoor est.),$32K-$59K (Glassdoor est.),3.3,3.4,1,1
+2401,1287,Division Data and Financial Analyst,University of California - San Diego Medical Centers,"San Diego, CA",$60K-$124K (Glassdoor est.),$60K-$124K (Glassdoor est.),3.7,3.6,0,1
+2402,1296,SWRMC Assessments Junior Data Analyst,Amentum,"San Diego, CA",$60K-$124K (Glassdoor est.),$60K-$124K (Glassdoor est.),3.2,3.4,0,1
+2404,1305,Molecular Researcher and Data Analyst,University of California - San Diego Medical Centers,"San Diego, CA",$60K-$124K (Glassdoor est.),$39K-$70K (Glassdoor est.),3.7,3.6,1,1
+2408,1314,Data Analyst I,"Insight Enterprises, Inc.","Plano, TX",$24K-$48K (Glassdoor est.),$53K-$88K (Glassdoor est.),4.1,4.0,1,1
+2409,1315,Data Analyst II,"Insight Enterprises, Inc.","Plano, TX",$24K-$48K (Glassdoor est.),$53K-$88K (Glassdoor est.),4.1,4.0,1,1
+2410,1317,Data Analyst - Retail (Entry Level),Lidl,"Arlington, TX",$24K-$48K (Glassdoor est.),$53K-$88K (Glassdoor est.),3.3,3.4,1,1
+2411,1321,SQL Data Analyst,Mondo,"Dallas, TX",$24K-$48K (Glassdoor est.),$53K-$88K (Glassdoor est.),3.9,3.8,1,1
+2414,1332,Data Analyst (HR),Lidl,"Arlington, TX",$24K-$48K (Glassdoor est.),$53K-$88K (Glassdoor est.),3.3,3.4,1,1
+2425,1357,Data Analyst,Trinity Industries,"Dallas, TX",$30K-$53K (Glassdoor est.),$34K-$62K (Glassdoor est.),2.9,3.0,1,1
+2426,1358,Data Analyst,Randstad US,"Plano, TX",$30K-$53K (Glassdoor est.),$41K-$86K (Glassdoor est.),3.7,3.6,1,1
+2428,1383,Data Analyst,Precision technologies corp,"Plano, TX",$41K-$86K (Glassdoor est.),$41K-$86K (Glassdoor est.),4.2,4.3,0,1
+2422,1392,SAS Data Analyst III(With SOL & Tableau),PROLIM Global Corporation,"Dallas, TX",$41K-$86K (Glassdoor est.),$34K-$62K (Glassdoor est.),3.4,3.3,1,1
+2440,1398,Data Management Analyst,Trinity Industries,"Dallas, TX",$41K-$86K (Glassdoor est.),$49K-$90K (Glassdoor est.),2.9,3.0,1,1
+2437,1411,Sr. Enterprise BI Data Analyst,Colfax Corporation,"Dallas, TX",$44K-$82K (Glassdoor est.),$49K-$90K (Glassdoor est.),2.1,2.4,1,1
+2436,1433,Pricing Data Analyst,Kforce,"Plano, TX",$48K-$88K (Glassdoor est.),$49K-$90K (Glassdoor est.),4.1,4.1,1,0
+2449,1457,Senior Data Quality Analyst,FirstAmerica,"Arlington, TX",$44K-$78K (Glassdoor est.),$44K-$82K (Glassdoor est.),3.2,3.1,1,1
+2448,1458,Lead Data Analyst,ArcBest,"Plano, TX",$44K-$78K (Glassdoor est.),$44K-$82K (Glassdoor est.),3.6,3.5,1,1
+2450,1461,Senior Data Risk Analyst,Peyton Resource Group (PRG),"Plano, TX",$44K-$78K (Glassdoor est.),$44K-$82K (Glassdoor est.),3.9,4.0,1,1
+2441,1464,Data Analyst - Senior,Kforce,"Plano, TX",$44K-$78K (Glassdoor est.),$49K-$89K (Glassdoor est.),4.1,4.1,1,0
+2451,1473,"Data Analyst, Product Insights",Alteryx,"Redwood City, CA",$110K-$190K (Glassdoor est.),$69K-$127K (Glassdoor est.),3.3,3.4,1,1
+2455,1489,Data Analyst,Randstad,"Sunnyvale, CA",$110K-$190K (Glassdoor est.),$69K-$127K (Glassdoor est.),3.7,3.6,1,1
+2459,1493,Senior Data Analyst Studio Finance Engineering,Netflix,"Los Gatos, CA",$110K-$190K (Glassdoor est.),$110K-$190K (Glassdoor est.),3.9,4.0,0,1
+2469,1499,Senior Data Analyst - Studio Finance Engineering,"Netflix, Inc.","Los Gatos, CA",$89K-$151K (Glassdoor est.),$58K-$93K (Glassdoor est.),3.9,4.0,1,1
+2463,1505,Data Analyst,Accounting Principals,"San Jose, CA",$89K-$151K (Glassdoor est.),$110K-$190K (Glassdoor est.),4.0,3.9,1,1
+2490,1557,Senior Data Analyst,Enjoy Technology,"Palo Alto, CA",$51K-$93K (Glassdoor est.),$89K-$151K (Glassdoor est.),3.1,3.2,1,1
+2495,1581,Sr. HR Data Analyst,Cepheid,"Sunnyvale, CA",$51K-$93K (Glassdoor est.),$96K-$194K (Glassdoor est.),3.3,3.4,1,1
+5630,1581,Sr. HR Data Analyst,Cepheid,"Sunnyvale, CA",$51K-$93K (Glassdoor est.),$44K-$82K (Glassdoor est.),3.3,3.5,1,1
+2494,1592,Sr Data Analyst,eHealth,"Santa Clara, CA",$58K-$93K (Glassdoor est.),$96K-$194K (Glassdoor est.),3.7,3.8,1,1
+2498,1626,BI Business/Data Analyst Lead with hands on SQL,Yochana,"Mountain View, CA",$63K-$116K (Glassdoor est.),$114K-$134K (Glassdoor est.),2.9,3.2,1,1
+2501,1636,Reconciliation Data Operations Analyst,eBay,"Austin, TX",$42K-$76K (Glassdoor est.),$34K-$65K (Glassdoor est.),3.5,3.6,1,1
+2506,1641,Junior Data Analyst,Assembly,"Austin, TX",$42K-$76K (Glassdoor est.),$34K-$65K (Glassdoor est.),2.6,2.7,1,1
+2505,1653,Junior Data Analyst,Assembly,"Austin, TX",$42K-$76K (Glassdoor est.),$34K-$65K (Glassdoor est.),3.4,4.4,1,1
+2518,1669,Data Migration Analyst,Q2eBanking,"Austin, TX",$53K-$104K (Glassdoor est.),$39K-$69K (Glassdoor est.),3.2,3.1,1,1
+2527,1686,Lead Data Analyst,Lawnstarter,"Austin, TX",$53K-$104K (Glassdoor est.),$64K-$110K (Glassdoor est.),3.8,3.9,1,1
+2528,1689,Managed Care Data Analyst,Sonic Healthcare USA,"Austin, TX",$35K-$42K (Glassdoor est.),$64K-$110K (Glassdoor est.),2.7,2.6,1,1
+2526,1691,Strategic Data Analyst III - Strategic Planning Divsion,TxDOT,"Austin, TX",$35K-$42K (Glassdoor est.),$64K-$110K (Glassdoor est.),3.8,3.9,1,1
+2523,1711,SQL Data and Integration Analyst,"Smartwebs, Inc.","Round Rock, TX",$35K-$42K (Glassdoor est.),$64K-$110K (Glassdoor est.),4.1,4.0,1,1
+2544,1736,Sr. Data Analyst - Guidewire Data Hub,Kemper,"Jacksonville, FL",$40K-$72K (Glassdoor est.),$31K-$56K (Glassdoor est.),2.9,3.1,1,1
+2548,1742,Human Performance Data Analyst,Reef Systems,"Fort Worth, TX",$50K-$86K (Glassdoor est.),$49K-$89K (Glassdoor est.),4.6,4.0,1,1
+2550,1745,"Data Analyst, Military Forecasting",Bell Helicopter,"Fort Worth, TX",$50K-$86K (Glassdoor est.),$49K-$89K (Glassdoor est.),3.9,3.8,1,1
+2551,1750,Sr Data Analyst,GM Financial,"Fort Worth, TX",$50K-$86K (Glassdoor est.),$49K-$89K (Glassdoor est.),2.9,3.0,1,1
+2554,1762,Data Analyst,Olive,"Columbus, OH",$28K-$52K (Glassdoor est.),$28K-$52K (Glassdoor est.),3.6,3.5,0,1
+2557,1768,Business Data Analyst,DHL,"Westerville, OH",$28K-$52K (Glassdoor est.),$28K-$52K (Glassdoor est.),3.8,3.9,0,1
+2612,1955,Business Data Analyst,Scale AI,"San Francisco, CA",$93K-$159K (Glassdoor est.),$93K-$159K (Glassdoor est.),3.2,3.1,0,1
+2629,2042,Senior Product Data Analyst,BOLD,"San Francisco, CA",$46K-$86K (Glassdoor est.),$47K-$74K (Glassdoor est.),3.6,3.7,1,1
+2610,2461,"Data Analyst, Product Insights",ClearStory Data,"Redwood City, CA",$110K-$190K (Glassdoor est.),$69K-$127K (Glassdoor est.),4.9,5.0,1,1
+4456,2631,Technical Business Analyst with SQL Data Specialist,"Central Business Solutions, Inc","Walnut Creek, CA",$47K-$74K (Glassdoor est.),$61K-$133K (Glassdoor est.),3.0,4.0,1,1

@@ -1,0 +1,29 @@
+company_name_clean,founded_year,headquarters,postings
+City of New York,1625,"New York, NY",8
+City of Boston,1630,"Boston, MA",1
+EMD Millipore,1668,"Boston, MA",1
+Merck KGaA,1668,"Darmstadt, Germany",2
+University of California Berkeley,1682,"Berkeley, CA",1
+London Stock Exchange Group,1698,"London, United Kingdom",1
+City of Albuquerque,1706,"Albuquerque, NM",1
+University of Pennsylvania,1740,"Philadelphia, PA",5
+Rutgers University,1766,"Piscataway, NJ",1
+Molson Coors,1774,"Chicago, IL",1
+Maryland Department of Health & Mental Hygiene,1776,"Baltimore, MD",1
+Department of Elementary and Secondary Education,1780,"Boston, MA",2
+Department of Environmental Protection,1780,"Boston, MA",1
+Exec Office of Technology Services and Security,1780,"Boston, MA",2
+Takeda,1781,"OSAKA, Japan",2
+BNY Mellon,1784,"New York, NY",10
+The Bank of New York Mellon,1784,"New York, NY",9
+University of Georgia,1785,"Athens, GA",1
+University of Pittsburgh,1787,"Pittsburgh, PA",2
+Legislative Branch,1789,"Atlanta, GA",3
+UNC Chapel Hill,1789,"Chapel Hill, NC",2
+State Street Corporation,1792,"Boston, MA",1
+University of Tennessee,1794,"Knoxville, TN",1
+Tufts Medical Center,1796,"Boston, MA",1
+J.P. Morgan,1799,"New York, NY",3
+JPMorgan Chase,1799,"New York, NY",6
+JPMorgan Chase & Co.,1799,"New York, NY",2
+"JPMorgan Chase Bank, N.A.",1799,"New York, NY",1

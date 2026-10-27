@@ -1,0 +1,2 @@
+total_rows,rows_with_rating_minus_one,naive_average_rating,correct_average_rating,error_in_naive_average
+5631,597,3.23,3.73,0.5

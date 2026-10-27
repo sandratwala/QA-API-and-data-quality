@@ -1,0 +1,32 @@
+location,postings,issue
+United States,85,not a city
+Remote,51,not a city
+New Jersey,37,"state or region only, no city"
+"Greenwood Village, Arapahoe, CO",8,extra part (county) in location
+Ontario,5,"state or region only, no city"
+California,4,"state or region only, no city"
+Illinois,4,"state or region only, no city"
+Connecticut,3,"state or region only, no city"
+"Mayfield Heights, Cuyahoga, OH",3,extra part (county) in location
+North Carolina,3,"state or region only, no city"
+Pennsylvania,3,"state or region only, no city"
+Texas,3,"state or region only, no city"
+Virginia,3,"state or region only, no city"
+Georgia,2,"state or region only, no city"
+"Highland Heights, Cuyahoga, OH",2,extra part (county) in location
+Michigan,2,"state or region only, no city"
+Minnesota,2,"state or region only, no city"
+New York State,2,"state or region only, no city"
+Arizona,1,"state or region only, no city"
+Canada,1,"state or region only, no city"
+Colorado,1,"state or region only, no city"
+Florida,1,"state or region only, no city"
+Maryland,1,"state or region only, no city"
+Massachusetts,1,"state or region only, no city"
+"Multiple Locations, Multiple Locations",1,unexpected format
+Oklahoma,1,"state or region only, no city"
+"Princeton Junction, Mercer, NJ",1,extra part (county) in location
+"Sandy Springs, Fulton, GA",1,extra part (county) in location
+"Somerset, Anne Arundel, MD",1,extra part (county) in location
+South Carolina,1,"state or region only, no city"
+Utah,1,"state or region only, no city"
