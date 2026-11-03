@@ -17,6 +17,7 @@ WITH ranked AS (
         ORDER BY row_id
     )
 )
+
 SELECT
     row_id,
     first_row_id AS duplicate_of_row_id,

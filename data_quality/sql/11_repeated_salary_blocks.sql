@@ -17,6 +17,7 @@ blocks AS (
     FROM numbered
     GROUP BY salary_estimate, block_id
 )
+
 SELECT salary_estimate, first_row_id, last_row_id, consecutive_rows, distinct_companies
 FROM blocks
 WHERE consecutive_rows >= 10

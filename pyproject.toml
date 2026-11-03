@@ -20,3 +20,17 @@ markers = [
     "known_bug: documents behaviour that does not match the expected result",
     "data: checks on the job postings dataset",
 ]
+   [tool.ruff]
+   line-length = 120
+   target-version = "py310"
+
+   [tool.ruff.lint]
+   select = ["E", "F", "I", "B", "UP", "SIM"]
+
+   [tool.ruff.lint.isort]
+   known-first-party = ["download_dataset", "load_to_sqlite", "run_checks", "pandas_checks"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.3",
+]

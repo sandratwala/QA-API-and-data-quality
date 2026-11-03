@@ -32,7 +32,8 @@ def load_postings(csv_path=CSV_PATH):
     frame.insert(0, "row_id", range(1, len(frame) + 1))
     frame["company_name_clean"] = frame["company_name"].str.split("\n").str[0].str.strip()
     frame["description_key"] = (
-        frame["job_description"].str.lower()
+        frame["job_description"]
+        .str.lower()
         .str.replace(r"[\r\n\t]", " ", regex=True)
         .str.replace(r" {2,}", " ", regex=True)
         .str.strip()
@@ -122,7 +123,7 @@ def repeated_salary_blocks(frame, min_rows=10, min_companies=8):
         )
     )
     flagged = summary[(summary["consecutive_rows"] >= min_rows) & (summary["distinct_companies"] >= min_companies)]
-    return set(zip(flagged["first_row_id"], flagged["last_row_id"]))
+    return set(zip(flagged["first_row_id"], flagged["last_row_id"], strict=True))
 
 
 def main():

@@ -15,6 +15,7 @@ ranked AS (
         RANK() OVER (ORDER BY postings DESC) AS company_rank
     FROM per_company
 )
+
 SELECT company_rank, company_name_clean, postings, pct_of_all_postings, distinct_locations, average_rating
 FROM ranked
 WHERE pct_of_all_postings >= 0.5

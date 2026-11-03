@@ -7,7 +7,7 @@
 | Component | Scraper (`glass_scraper.py`, function `collect_listing_info`) and the resulting `DataAnalyst.csv` |
 | Dataset version | `picklesueat/data_jobs_data` at commit `d3f96ca`, SHA-256 `a0807411…f617a` |
 | Found by | Check 11 (`data_quality/sql/11_repeated_salary_blocks.sql`) |
-| Reporter | Shamy |
+| Reporter | Sandra Twala |
 | Status | Open |
 
 ## Summary

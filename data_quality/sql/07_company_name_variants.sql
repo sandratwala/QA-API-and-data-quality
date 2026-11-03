@@ -6,6 +6,7 @@ WITH companies AS (
       AND size NOT IN ('-1', 'Unknown')
       AND trim(company_name_clean) <> ''
 ),
+
 groups AS (
     SELECT
         headquarters,
@@ -18,6 +19,7 @@ groups AS (
     GROUP BY headquarters, founded_year, size, revenue
     HAVING COUNT(DISTINCT company_name_clean) > 1
 )
+
 SELECT g.headquarters, g.founded_year, g.size, g.revenue, g.name_count, g.name_variants,
        COUNT(p.row_id) AS postings_affected
 FROM groups AS g

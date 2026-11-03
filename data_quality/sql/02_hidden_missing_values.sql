@@ -15,6 +15,7 @@ sentinels AS (
     UNION ALL SELECT 'competitors', SUM(competitors = '-1'), SUM(trim(competitors) = ''), 0 FROM job_postings
     UNION ALL SELECT 'easy_apply', SUM(easy_apply = '-1'), SUM(trim(easy_apply) = ''), 0 FROM job_postings
 )
+
 SELECT
     column_name,
     minus_one,

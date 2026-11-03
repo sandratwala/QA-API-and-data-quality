@@ -93,44 +93,52 @@ class TestKnownFindings:
 
 class TestChecksCatchInjectedProblems:
     def test_out_of_range_check_flags_bad_values(self, make_database, valid_row):
-        connection = make_database([
-            valid_row,
-            {**valid_row, "rating": "7.5"},
-            {**valid_row, "founded": "2031"},
-            {**valid_row, "easy_apply": "Maybe"},
-            {**valid_row, "salary_estimate": "$900K-$950K (Glassdoor est.)"},
-        ])
+        connection = make_database(
+            [
+                valid_row,
+                {**valid_row, "rating": "7.5"},
+                {**valid_row, "founded": "2031"},
+                {**valid_row, "easy_apply": "Maybe"},
+                {**valid_row, "salary_estimate": "$900K-$950K (Glassdoor est.)"},
+            ]
+        )
 
         flagged = row_ids(run_checks.run_check(connection, check_by_number("08")))
 
         assert flagged == {2, 3, 4, 5}
 
     def test_duplicate_check_ignores_rating_and_whitespace_changes(self, make_database, valid_row):
-        connection = make_database([
-            valid_row,
-            {**valid_row, "company_name": "Example Co\n3.9", "job_description": "Analyse   hiring\n\ndata."},
-            {**valid_row, "location": "Dallas, TX"},
-        ])
+        connection = make_database(
+            [
+                valid_row,
+                {**valid_row, "company_name": "Example Co\n3.9", "job_description": "Analyse   hiring\n\ndata."},
+                {**valid_row, "location": "Dallas, TX"},
+            ]
+        )
 
         flagged = row_ids(run_checks.run_check(connection, check_by_number("01")))
 
         assert flagged == {2}
 
     def test_salary_check_flags_hourly_and_missing_pay(self, make_database, valid_row):
-        connection = make_database([
-            valid_row,
-            {**valid_row, "salary_estimate": "$65-$75Per Hour(Employer est.)"},
-            {**valid_row, "salary_estimate": "-1"},
-            {**valid_row, "salary_estimate": "$90K-$60K (Glassdoor est.)"},
-        ])
+        connection = make_database(
+            [
+                valid_row,
+                {**valid_row, "salary_estimate": "$65-$75Per Hour(Employer est.)"},
+                {**valid_row, "salary_estimate": "-1"},
+                {**valid_row, "salary_estimate": "$90K-$60K (Glassdoor est.)"},
+            ]
+        )
 
         flagged = row_ids(run_checks.run_check(connection, check_by_number("04")))
 
         assert flagged == {2, 3, 4}
 
     def test_clean_data_passes_every_error_check(self, make_database, valid_row):
-        rows = [{**valid_row, "company_name": f"Company {number}", "salary_estimate": f"${40 + number}K-$90K"}
-                for number in range(12)]
+        rows = [
+            {**valid_row, "company_name": f"Company {number}", "salary_estimate": f"${40 + number}K-$90K"}
+            for number in range(12)
+        ]
         connection = make_database(rows)
 
         for check in run_checks.CHECKS:

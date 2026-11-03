@@ -26,28 +26,72 @@ class Check:
 
 
 CHECKS = [
-    Check("01_duplicate_postings.sql", "Duplicate postings hidden by a changing company field", "error",
-          "Same title, company, location and description appear more than once. Each row listed is an extra copy."),
-    Check("02_hidden_missing_values.sql", "Missing values disguised as -1 or Unknown", "warning",
-          "Columns where missing data is stored as a value instead of being empty."),
-    Check("03_sentinel_impact_on_rating.sql", "Effect of -1 ratings on the average", "info",
-          "How wrong a simple average becomes if -1 is treated as a real rating."),
-    Check("04_salary_format_issues.sql", "Salary values that are missing or in the wrong unit", "error",
-          "Salaries stored as -1, or hourly pay mixed into a column of annual salaries."),
-    Check("05_company_name_field_issues.sql", "Company name field contaminated or empty", "error",
-          "Company names with the star rating glued on, or no name at all."),
-    Check("06_location_format_issues.sql", "Locations not in 'City, ST' format", "warning",
-          "Locations that cannot be mapped to a city, such as Remote or a state name."),
-    Check("07_company_name_variants.sql", "Same company under different names", "warning",
-          "Groups of names sharing headquarters, founding year, size and revenue. A list for a person to review."),
-    Check("08_out_of_range_values.sql", "Values outside valid ranges", "error",
-          "Ratings outside 1 to 5, founding years after 2020, invalid flags or impossible salaries."),
-    Check("09_founded_year_review.sql", "Very old founding years to verify", "info",
-          "Companies founded before 1800. Some are correct, some are not, so each needs checking against a source."),
-    Check("10_posting_concentration.sql", "Companies with an unusually large share of postings", "info",
-          "Employers posting far more than others, which can skew any market-level number."),
-    Check("11_repeated_salary_blocks.sql", "Same salary repeated across consecutive rows", "error",
-          "Runs of 10 or more consecutive rows from 8 or more different companies with an identical salary."),
+    Check(
+        "01_duplicate_postings.sql",
+        "Duplicate postings hidden by a changing company field",
+        "error",
+        "Same title, company, location and description appear more than once. Each row listed is an extra copy.",
+    ),
+    Check(
+        "02_hidden_missing_values.sql",
+        "Missing values disguised as -1 or Unknown",
+        "warning",
+        "Columns where missing data is stored as a value instead of being empty.",
+    ),
+    Check(
+        "03_sentinel_impact_on_rating.sql",
+        "Effect of -1 ratings on the average",
+        "info",
+        "How wrong a simple average becomes if -1 is treated as a real rating.",
+    ),
+    Check(
+        "04_salary_format_issues.sql",
+        "Salary values that are missing or in the wrong unit",
+        "error",
+        "Salaries stored as -1, or hourly pay mixed into a column of annual salaries.",
+    ),
+    Check(
+        "05_company_name_field_issues.sql",
+        "Company name field contaminated or empty",
+        "error",
+        "Company names with the star rating glued on, or no name at all.",
+    ),
+    Check(
+        "06_location_format_issues.sql",
+        "Locations not in 'City, ST' format",
+        "warning",
+        "Locations that cannot be mapped to a city, such as Remote or a state name.",
+    ),
+    Check(
+        "07_company_name_variants.sql",
+        "Same company under different names",
+        "warning",
+        "Groups of names sharing headquarters, founding year, size and revenue. A list for a person to review.",
+    ),
+    Check(
+        "08_out_of_range_values.sql",
+        "Values outside valid ranges",
+        "error",
+        "Ratings outside 1 to 5, founding years after 2020, invalid flags or impossible salaries.",
+    ),
+    Check(
+        "09_founded_year_review.sql",
+        "Very old founding years to verify",
+        "info",
+        "Companies founded before 1800. Some are correct, some are not, so each needs checking against a source.",
+    ),
+    Check(
+        "10_posting_concentration.sql",
+        "Companies with an unusually large share of postings",
+        "info",
+        "Employers posting far more than others, which can skew any market-level number.",
+    ),
+    Check(
+        "11_repeated_salary_blocks.sql",
+        "Same salary repeated across consecutive rows",
+        "error",
+        "Runs of 10 or more consecutive rows from 8 or more different companies with an identical salary.",
+    ),
 ]
 
 
@@ -100,7 +144,7 @@ def write_report(results, row_count):
         "| # | Check | Severity | Status | Rows returned |",
         "|---|---|---|---|---|",
     ]
-    for check, status, columns, rows in results:
+    for check, status, _columns, rows in results:
         number = check.sql_file[:2]
         lines.append(f"| {number} | {check.title} | {check.severity} | {status} | {len(rows):,} |")
 
@@ -137,8 +181,11 @@ def prepare_database():
 
 def main():
     parser = argparse.ArgumentParser(description="Run SQL data quality checks on the job postings dataset.")
-    parser.add_argument("--fail-on-error", action="store_true",
-                        help="exit with code 1 if any error-level check finds problems (use as a release gate)")
+    parser.add_argument(
+        "--fail-on-error",
+        action="store_true",
+        help="exit with code 1 if any error-level check finds problems (use as a release gate)",
+    )
     args = parser.parse_args()
 
     prepare_database()
@@ -155,7 +202,7 @@ def main():
     write_report(results, row_count)
 
     print(f"\n{'#':<3} {'Check':<55} {'Severity':<9} {'Status':<8} {'Rows':>6}")
-    for check, status, columns, rows in results:
+    for check, status, _columns, rows in results:
         print(f"{check.sql_file[:2]:<3} {check.title[:54]:<55} {check.severity:<9} {status:<8} {len(rows):>6,}")
     print(f"\nReport written to {REPORT_PATH.relative_to(ROOT)}")
 
